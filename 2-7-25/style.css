@@ -1,0 +1,25 @@
+body{
+    /* width: 400px; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+}
+
+
+.child{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    /* transform: translate(80%); */
+    /* transform: scale(2); */
+    /* transition: ; */
+}
+.child:hover{
+    transition: border-radius,transform,background-color;
+    transform: rotate(360deg);
+    background-color: red;
+    transition-duration: 5s;
+    border-radius: 100px;
+}

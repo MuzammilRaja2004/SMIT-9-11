@@ -1,0 +1,146 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .container {
+            border: 1px solid red;
+            display: grid;
+            grid-template-areas: "header"
+                "navbar"
+                "main"
+                "footer";
+            min-height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        nav {
+            grid-area: navbar;
+            background-color: red;
+            text-align: center;
+        }
+
+        main {
+            grid-area: main;
+            background-color: aquamarine;
+            display: grid;
+            grid-template-columns: 0.2fr 1fr;
+        }
+
+        aside {
+            background-color: green;
+        }
+
+        section {
+            background-color: #c9c9c9;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <p>Header</p>
+        </header>
+        <nav>
+            <p>navbar</p>
+        </nav>
+        <main>
+            <aside>
+                <p>sidebar</p>
+            </aside>
+            <section>
+                <p>section</p>
+            </section>
+        </main>
+        <footer>
+            <p>footer</p>
+        </footer>
+    </div>
+</body>
+
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+        div{
+            border: 2px solid red;
+
+        }
+        .div1 {
+            /* border: 2px solid red; */
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .div2 {
+            grid-area: 1 / 2 / 2 / 3;
+        }
+
+        .div3 {
+            grid-area: 1 / 3 / 2 / 4;
+        }
+
+        .div4 {
+            grid-area: 1 / 4 / 2 / 5;
+        }
+
+        .div5 {
+            grid-area: 3 / 1 / 4 / 2;
+        }
+
+        .div6 {
+            grid-area: 3 / 2 / 4 / 3;
+        }
+
+        .div7 {
+            grid-area: 3 / 3 / 4 / 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="div1">1 </div>
+        <div class="div2">2 </div>
+        <div class="div3"> 3</div>
+        <div class="div4"> 4</div>
+        <div class="div5"> 5</div>
+        <div class="div6">6 </div>
+        <div class="div7">7 </div>
+    </div>
+</body>
+
+</html>

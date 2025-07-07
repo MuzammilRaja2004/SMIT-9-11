@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-pink {
+    background-color: purple;
+}
+
+.color-blue {
+    color: blue;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-green {
+    color: green;
+}
+
+.color-purple {
+    color: purple;
+}
+
+.color-pink {
+    color: purple;
+}
+.color-black {
+    color: black;
+}
+.bg-black {
+    background-color: black;
+}
+.color-white {
+    color: white;
+}
+.bg-white {
+    background-color: white;
+}
+.mt-10{
+    margin-top: 2rem;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+
