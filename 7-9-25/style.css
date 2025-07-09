@@ -1,0 +1,30 @@
+.container {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+
+}
+
+.item {
+    border: 2px solid green;
+    /* height: 50px; */
+    /* width: 50px; */
+}
+
+.item-2 {
+    /* grid-column-start: 2;
+    grid-column-end: 4; */
+    grid-column: 2/6;
+    /* grid-column: 2/4; */
+}
+.item-3{
+    /* grid-column: ; */
+    grid-row: 2/4;
+}
+.item-5{
+    grid-column: 3/5;
+}
+.item-8{
+    grid-column: 4/6;
+}
